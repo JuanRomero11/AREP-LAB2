@@ -10,7 +10,7 @@ import static spark.Spark.*;
 public class SparkWebApp {
    
     public static void main(String[] args) {
-        
+        port(getPort());
         get("/hello", (req, res) -> "hello heroku");   
 
     }
