@@ -22,7 +22,12 @@ import spark.template.thymeleaf.ThymeleafTemplateEngine;
 public class SparkWebApp {
 	
    
-
+	/**
+	 * Este metodo utiliza metodo get del mini framework spark y funciones lambda
+	 * las cuales nos ayudaran a insertar nuestro html y donde obtendremos los datos
+	 * ingresados y mostraremos los resultados.
+	 * 
+	 */
 	
 	public static void main (String[]args){
 
@@ -32,9 +37,15 @@ public class SparkWebApp {
         
         
 	}
-
+	/**
+	 * Se implementa el metodo para leer los datos que ingrese el usuario separados por coma
+	 * 
+	 * @param req parametro funcion lambda tipo Request
+	 * @param res parametro funcion lambda tipo Response
+	 * @return pagina 
+	 */
 	private static String inputDataPage(Request req, Response res) {
-		String pageC
+		String pagina
 			="<!DOCTYPE html>" 
 			+"<html>"
 			+"<body>" 
@@ -46,9 +57,16 @@ public class SparkWebApp {
 			+ "</form>" 
 			+ "</body>"
 			+ "</html>";
-		return pageC;
+		return pagina;
 	}
 	
+	/**
+	 * Este metodo mostrara el valor de la media y la desviacion estandar
+	 * de los datos ingresados
+	 * @param req  parametro funcion lambda tipo Request
+	 * @param res parametro funcion lambda tipo Response
+	 * @return resp
+	 */
 
 	private static String resultDataPage(Request req, Response res) {
 		LikendList<Double> lista=new LikendList<Double>();
@@ -66,7 +84,11 @@ public class SparkWebApp {
 				+ "</html>";
 		return resp;
 	}
-
+	 /**
+     *Este metodo se encarga de obtener el puerto segun la variable PORT
+     *
+     *@return 4657 
+     */
     static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
