@@ -18,7 +18,7 @@ Descargar Git e instrucciones de instalacion
 https://git-scm.com/downloads
 
 ## Construccion
-Este proyecto basicamente esta construido en maven y el editor que se utilizo fue NetBeans, teniendo el JDK antes mencionado, especificamente se utilizo el lenguaje Java.
+Este proyecto basicamente esta construido en maven y el editor que se utilizo fue NetBeans, teniendo el JDK antes mencionado, especificamente se utilizo el lenguaje Java, con el mini framework spark y el despliegue se realizo en heroku.
 
 ## Diseño
 
@@ -39,6 +39,9 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
 
 ![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/package.PNG)
       
+## Despliegue
+
+[![Deployed to Heroku](https://fathomless-anchorage-23469.herokuapp.com/inputdata)
 
 ## Ejecución de Pruebas
 
