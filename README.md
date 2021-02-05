@@ -41,7 +41,7 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
       
 ## Despliegue
 
-[![Deployed to Heroku](https://fathomless-anchorage-23469.herokuapp.com/inputdata)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://fathomless-anchorage-23469.herokuapp.com/inputdata)
 
 ## Ejecución de Pruebas
 
