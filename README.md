@@ -37,7 +37,7 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
         mvn package
 
 
-![alt text]()
+![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/package.PNG)
       
 
 ## Ejecución de Pruebas
@@ -69,9 +69,12 @@ algunas pruebas de Calculator para evidenciar que se realizaron con los datos co
 
 ![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/testCalcularMedia.PNG)
 
+![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/puertoTest.PNG)
+
 Resultados obtenidos:
 
-![alt text]()
+![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/resultadosConsola.PNG)
+
 A parte se muestran las pruebas realizadas ingresando los datos en la aplicacion desplegada.
 
 ![alt text](https://github.com/JuanRomero11/AREP-LAB2/blob/main/imagenes/testeInputData.PNG)
