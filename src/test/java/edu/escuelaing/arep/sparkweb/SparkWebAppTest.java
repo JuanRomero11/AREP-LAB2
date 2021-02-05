@@ -44,24 +44,21 @@ public class SparkWebAppTest {
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        SparkWebApp.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
      * Test of getPort method, of class SparkWebApp.
      *
+     **/
     @Test
     public void testGetPort() {
         System.out.println("getPort");
-        int expResult = 0;
+        int expResult = 4567;
         int result = SparkWebApp.getPort();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+     
     }
-    */
+    
  
     
 }
