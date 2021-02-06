@@ -43,6 +43,10 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://fathomless-anchorage-23469.herokuapp.com/inputdata)
 
+## Integracion continua
+
+[![CircleCI](https://circleci.com/gh/JuanRomero11/ROMEROJUAN-ARSW-T2.svg?style=svg&circle-token=fa8c51f3bedd926b133267148a5e3c22e1617f4a)]https://app.circleci.com/pipelines/github/JuanRomero11/AREP-LAB2
+
 ## Ejecución de Pruebas
 
 Para ejecutar las pruebas se pueden utilizar dos comandos:
